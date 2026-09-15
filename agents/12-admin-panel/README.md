@@ -29,3 +29,18 @@ events, view analytics.
 ## Definition of done
 An admin can log in, search for a test player, ban them, and see the action
 recorded in the audit log.
+
+## Shared status board (read this too)
+Before you finish this session, update your row in the shared status board so
+other agents/terminals know your progress:
+
+```bash
+cd /home/sanjey/Pictures/Script/clean_pages/lords-mobile-worktrees/planning
+git pull origin dont-merge
+# edit docs/STATUS.md — update only your own row
+git add docs/STATUS.md && git commit -m "status: update" && git push origin dont-merge
+```
+
+Also check `docs/CHANGE-REQUESTS.md` there for any asks directed at you from
+other agents, and log any of your own asks there instead of editing another
+agent's owned files or the shared contract docs directly.
